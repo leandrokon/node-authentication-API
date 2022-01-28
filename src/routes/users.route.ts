@@ -1,6 +1,7 @@
 import { Router, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 
+
 const usersRoute = Router();
 
 usersRoute.get('/users', (req:Request, res:Response) => {
